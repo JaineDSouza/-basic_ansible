@@ -1,0 +1,8 @@
+---
+# vars file for create
+instance_type: t2.micro
+security_group: aws_instance
+image: ami-077e11c823c0860c7
+keypair: semanadevops-ansible
+region: us-east-1
+count: 3
